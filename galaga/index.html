@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <canvas id="canvas" class="canvas"></canvas>
+    <div class="debug" id="debug"></div>
+    <img hidden id="paddle-image" src="/paddle.png" alt="" />
+    <img hidden id="bricks-image" src="/bricks.png" alt="" />
+    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/debug.ts"></script>
+  </body>
+
+  <style>
+    .canvas {
+      background-image: url('/background.png');
+      background-repeat: repeat;
+    }
+    .debug {
+      border: 1px black solid;
+      padding: 3px;
+      position: fixed;
+      margin: 20px;
+      bottom: 0;
+      left: 0;
+    }
+  </style>
+</html>

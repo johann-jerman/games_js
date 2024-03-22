@@ -1,0 +1,51 @@
+export const bricksData = [
+  {
+    id: 'piedra formita',
+    sx: 0,
+    sy: 0,
+    sw: 70,
+    sh: 70,
+  },
+  {
+    id: 'hielo',
+    sx: 290,
+    sy: 0,
+    sw: 70,
+    sh: 70,
+  },
+  {
+    id: 'madera',
+    sx: 72,
+    sy: 72,
+    sw: 70,
+    sh: 70,
+  },
+  {
+    id: 'oro',
+    sx: 73,
+    sy: 144,
+    sw: 70,
+    sh: 70,
+  },
+  {
+    id: ' ladrillo',
+    sx: 215,
+    sy: 144,
+    sw: 70,
+    sh: 70,
+  },
+  {
+    id: 'piedra',
+    sx: 290,
+    sy: 144,
+    sw: 70,
+    sh: 70,
+  },
+  {
+    id: 'piedra borde',
+    sx: 360,
+    sy: 144,
+    sw: 70,
+    sh: 70,
+  },
+]
